@@ -7,8 +7,8 @@ summary: ""
 authors: []
 tags: []
 categories: []
-date: 2020-04-29T17:09:36-07:00
-lastmod: 2020-04-29T17:09:36-07:00
+date: 2019-12-17T00:00:00-07:00
+#lastmod: 2020-04-29T17:09:36-07:00
 featured: false
 draft: false
 
@@ -69,7 +69,7 @@ If we look at the way [Wikipedia](https://en.wikipedia.org/wiki/Quantum_phase_es
 
 If you don't already know why this might be cool, unpacking it can take a fair bit of math.
 <p style="text-align: center;">
-	<img src="/public/media/blog/chewie-mikeandike.jpg" alt="German shepard dog named Chewie laying on the couch on a book" style="width: 60%; display: inline;padding-top: 1em;"/>
+	<img src="featured.jpg" alt="German shepard dog named Chewie laying on the couch on a book" style="width: 60%; display: inline;padding-top: 1em;"/>
 </p>
 
 _Even my new pup [Chewie](https://www.instagram.com/chewieborka/) was not really interested in unitaries_ 😂
