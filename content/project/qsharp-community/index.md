@@ -9,7 +9,7 @@ categories: []
 date: 2020-04-28T23:02:41-07:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://qsharp.community/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -21,11 +21,11 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+ - name: Follow
+   url: https://twitter.com/QSharpCommunity
+   icon_pack: fab
+   icon: twitter
 
 url_code: ""
 url_pdf: ""
