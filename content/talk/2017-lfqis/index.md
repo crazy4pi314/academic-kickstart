@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "2017 Lfqis"
-event:
-event_url:
-location:
+title: "Super Cool Science: An Exploration Of Modern Experiment"
+event: "Last frontiers in quantum information science"
+event_url: https://lfqis.github.io/2017/
+location: "Seward, AK, USA"
 address:
   street:
   city:
@@ -16,8 +16,8 @@ abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-05-12T13:43:28-07:00
-date_end: 2020-05-12T13:43:28-07:00
+date: 2017-06-22T14:00:00-07:00
+#date_end: 2020-05-12T13:43:28-07:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).

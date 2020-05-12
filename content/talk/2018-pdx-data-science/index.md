@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "2018 Pdx Data Science"
-event:
-event_url:
-location:
+title: "Quantum Machine Learning in context: What is a quantum algorithm anyway?"
+event: "Portland Data Science Group"
+event_url: https://www.meetup.com/Portland-Data-Science-Group/events/255093322
+location: "Portland, OR, USA"
 address:
   street:
   city:
@@ -12,12 +12,12 @@ address:
   postcode:
   country:
 summary:
-abstract:
+abstract: "In the rush to add the word _quantum_ to everything from batteries to banking, Quantum machine learning has entered the fray. A perfect combination of buzzwords that will get all of the funding....right? In this talk I want to look at quantum algorithms and what actually constitutes programming a quantum computer. With this context, we can look at what machine learning tasks are being explored for possible speedups with quantum computing."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-05-12T13:43:53-07:00
-date_end: 2020-05-12T13:43:53-07:00
+date: 2018-10-04T19:00:00-07:00
+#date_end: 2020-05-12T13:43:53-07:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).

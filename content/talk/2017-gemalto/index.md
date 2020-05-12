@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "2017 Gemalto"
-event:
+title: "Photon phreaking: What quantum can (actually) do for security"
+event: "Gemalto Crypto Club"
 event_url:
-location:
+location: "Sydney, NSW, Australia"
 address:
   street:
   city:
@@ -12,19 +12,19 @@ address:
   postcode:
   country:
 summary:
-abstract:
+abstract: "What properties of quantum systems can be useful for cryptography? Quantum systems have the potential to be new cryptographic tools and force us to re-examine our current assumptions of computational complexity. We will look at some interesting examples of the new tech and protocols like quantum key distribution and “quantum hacking”, quantum random number generators, quantum computing and algorithms. What consequences do these technologies have for our current cryptographic infrastructure?"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-05-12T13:42:49-07:00
-date_end: 2020-05-12T13:42:49-07:00
+date: 2017-02-23T17:00:00+10:00
+#date_end: 2020-05-12T13:42:49-07:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
 publishDate: 2020-05-12T13:42:49-07:00
 
 authors: []
-tags: []
+tags: ["qkd"]
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -46,7 +46,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides:
+url_slides: https://github.com/crazy4pi314/crypto_club_2016
 
 url_code:
 url_pdf:

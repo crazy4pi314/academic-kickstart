@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "2016 Photonics Connections"
+title: "Extending the reach of QKD: Satellite prototype for quantum communication"
 event: "Quantum Photonic Connections Conference"
 event_url: http://www.cudos.org.au/calendar/2016_quantum.shtml
 location:
@@ -57,7 +57,7 @@ url_video:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: ""
+slides: "index"
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
