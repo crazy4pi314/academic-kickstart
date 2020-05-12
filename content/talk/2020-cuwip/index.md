@@ -1,8 +1,8 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "The science isn’t magic, but we are ✨"
-event: "Washington State University Physics and Astronomy Colloquium"
+title: "2020 Cuwip"
+event:
 event_url:
 location:
 address:
@@ -12,38 +12,38 @@ address:
   postcode:
   country:
 summary:
-abstract: "Science isn’t — and can’t — be done in isolation. I have spent much of my life in dark labs counting single photons, but it took a team to achieve our goals. The communities you build throughout your career will be the best resource you have to grow and develop as scientists, professionals, and humans. I will talk a bit about how each of the different communities I have been a part of have shaped my career, and my research."
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-04-28T17:11:44-07:00
-#date_end: 2020-04-28T17:11:44-07:00
+date: 2020-05-12T13:45:29-07:00
+date_end: 2020-05-12T13:45:29-07:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-#publishDate: 2020-04-28T17:11:44-07:00
+publishDate: 2020-05-12T13:45:29-07:00
 
 authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: true
+featured: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Photo : https://twitter.com/TheAtomicMommy/status/1217994763481182208?s=20"
+  caption: ""
   focal_point: ""
   preview_only: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-links:
-  - name: Follow
-    url: https://twitter.com
-    icon_pack: fab
-    icon: twitter
+# links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
 url_slides:

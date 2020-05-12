@@ -12,7 +12,7 @@ address:
   postcode:
   country:
 summary:
-abstract:
+abstract: "Long-distance quantum communication systems are of interest for commercial and fundamental scientific projects. Currently, the link length of these systems is limited by optical fiber losses or free-space line of sight. Our goal is to use low earth orbit satellites as a relay, enabling distant locations to establish a link and exchange quantum systems, including those that were too far apart to link previously. In this talk, I will describe our progress towards a proposed quantum receiver satellite payload that has a passive polarization analyzer to detect photons sent from ground stations. We have designed and constructed prototypes of the QEYSSAT (Quantum EncrYption and Science SATellite) payload with commercial and government assistance. These prototypes comprise almost the entire system needed for a form-fit-function payload and ground station. I will present tests of our system in realistic scenarios representing the environments it will face. In particular, I will present the latest results of testing this system in an aircraft. Finally, I will also identify remaining challenges for practical long distance quantum communication."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -46,7 +46,7 @@ links:
    icon: file-pdf
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides:
+url_slides: index.html
 
 url_code:
 url_pdf:
