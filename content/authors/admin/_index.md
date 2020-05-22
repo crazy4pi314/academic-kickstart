@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Sarah Kaiser
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,33 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Research Enginer
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Pensar Development
+  url: "https://pensar.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 𝜋-thonista and Research Engineer @ Pensar. PhD in Physics (quantum information) who loves to burn things w/ lasers 💖.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Quantum Technologies
+- Science Communication and Education
+- Tech Community Development
+- LASERS
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Physics (Quantum Information)
+    institution: University of Waterloo
+    year: 2016
+  - course: BSc in Physics
+    institution: Bethel University
+    year: 2011
+  - course: BA in Mathematics
+    institution: Bethel University
+    year: 2011
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -47,18 +48,18 @@ social:
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/crazy4pi314
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=wUnQwUMAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/crazy4pi314
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -70,6 +71,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Dr. Sarah Kaiser has spent much of her career developing new quantum hardware in the lab, from satellites to hacking quantum cryptography hardware. Communicating what is so exciting about quantum is her passion, and she loves finding new demos and tools to help enable the quantum open source community to grow. When not at the keyboard she loves kayaking, laser cutting everything (safe), and writing books about engineering for kids. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+<!--Sarah completed her PhD in physics (quantum information) at the University of Waterloo’s Institute for Quantum Computing and was a postdoctoral research fellow at Macquarie University in Sydney, Australia. Prior to that she was an undergraduate research fellow at CalTech, in Pasadena, and with the National Institute of Standards and Technology, in Boulder, CO and also worked as a Mathematica kernel developer with Wolfram Research in Urbana-Champaign.-->
