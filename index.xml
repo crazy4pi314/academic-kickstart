@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sarah Kaiser 2020</copyright><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Academic</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>Posts</title>
+      <link>/blog/1/01/01/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/blog/1/01/01/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Popular Topics</title>
+      <link>/blog/1/01/01/popular-topics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/blog/1/01/01/popular-topics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learn Quantum Computing with Python and Q#: A Hands-on Approach</title>
+      <link>/publication/kaiser-learn-quantum-computing-2020/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/kaiser-learn-quantum-computing-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2020 Wsu Colloquium</title>
+      <link>/research/talks/2020-wsu-colloquium/</link>
+      <pubDate>Tue, 12 May 2020 13:46:00 -0700</pubDate>
+      <guid>/research/talks/2020-wsu-colloquium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2020 Cuwip</title>
+      <link>/research/talks/2020-cuwip/</link>
+      <pubDate>Tue, 12 May 2020 13:45:29 -0700</pubDate>
+      <guid>/research/talks/2020-cuwip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019 Hackaday Supercon</title>
+      <link>/research/talks/2019-hackaday-supercon/</link>
+      <pubDate>Tue, 12 May 2020 13:44:40 -0700</pubDate>
+      <guid>/research/talks/2019-hackaday-supercon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019 Pyladies</title>
+      <link>/research/talks/2019-pyladies/</link>
+      <pubDate>Tue, 12 May 2020 13:44:30 -0700</pubDate>
+      <guid>/research/talks/2019-pyladies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019 Ml4all</title>
+      <link>/research/talks/2019-ml4all/</link>
+      <pubDate>Tue, 12 May 2020 13:44:18 -0700</pubDate>
+      <guid>/research/talks/2019-ml4all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019 Build</title>
+      <link>/research/talks/2019-build/</link>
+      <pubDate>Tue, 12 May 2020 13:44:08 -0700</pubDate>
+      <guid>/research/talks/2019-build/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extending the reach of QKD: Satellite prototype for quantum communication</title>
+      <link>/research/talks/extending-the-reach-of-qkd-satellite-prototype-for-quantum-communication/</link>
+      <pubDate>Mon, 04 May 2020 15:41:05 -0700</pubDate>
+      <guid>/research/talks/extending-the-reach-of-qkd-satellite-prototype-for-quantum-communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An array of facts on arrays in Q#</title>
+      <link>/blog/2020/04/29/an-array-of-facts-on-arrays-in-q/</link>
+      <pubDate>Wed, 29 Apr 2020 17:10:13 -0700</pubDate>
+      <guid>/blog/2020/04/29/an-array-of-facts-on-arrays-in-q/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Post co-authored with 
+&lt;a href=&#34;https://www.cgranade.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chris Granade&lt;/a&gt;, my co-author on 
+&lt;a href=&#34;https://www.manning.com/books/learn-quantum-computing-with-python-and-q-sharp?a_aid=learn-qc-granade&amp;amp;a_bid=ee23f338&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn Quantum Computing with Python and Q#&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All of the Q#, C# and Python examples in this post can be run online 
+&lt;a href=&#34;https://mybinder.org/v2/gist/cgranade/09dabfe1cc2e650cd88d2cfc98185791/master&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on Binder&lt;/a&gt;. It may take a while to build the docker container so read ahead, and you can jump back when it&amp;rsquo;s done. 😊&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Normally when you read a post or an article about a quantum programming language like Q#, you&amp;rsquo;ll see stuff about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;what qubits are,&lt;/li&gt;
+&lt;li&gt;what a quantum computer even is, or&lt;/li&gt;
+&lt;li&gt;how superposition and entanglement can be used together to solve hard problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&amp;rsquo;s all really important to help understand why quantum computing is so cool, and how you can get started with it, but there is something that&amp;rsquo;s easily lost in all of that: &lt;strong&gt;quantum programs are just special kinds of classical programs&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;What do we mean by that?
+At their core, quantum programs are classical programs that send instructions to quantum devices.
+That means that &lt;em&gt;a lot of what you already know about classical programming still applies&lt;/em&gt;.
+In this post, we&amp;rsquo;ll look at how Q# represents one incredibly common &lt;em&gt;classical&lt;/em&gt; data structure in what may seem to be a slightly unusual way, and how that helps make Q# a great classical language for controlling quantum devices.&lt;/p&gt;
+&lt;h2 id=&#34;arrays-in-q-&#34;&gt;Arrays in Q#&lt;/h2&gt;
+&lt;div style=&#34;width:100%;height:0;padding-bottom:56%;position:relative;&#34;&gt;&lt;iframe src=&#34;https://giphy.com/embed/QfGYYVrbay6kssMrYn&#34; width=&#34;100%&#34; height=&#34;100%&#34; style=&#34;position:absolute&#34; frameBorder=&#34;0&#34; class=&#34;giphy-embed&#34; allowFullScreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://giphy.com/gifs/quintab-quinta-brunson-b-QfGYYVrbay6kssMrYn&#34;&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Whatever they might be called in a particular language, arrays are an incredibly common and useful data structure for developers.
+There can be differences in how they behave from language to language, so it might be helpful to take a look at how they work in Q#.&lt;/p&gt;
+&lt;p&gt;Consider the following snippet where you are creating two arrays (&lt;code&gt;a&lt;/code&gt; and &lt;code&gt;b&lt;/code&gt;) in Q#.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Q#&#34;&gt;mutable a = [2, 4, 6];
+let b = a;
+
+// Change the first element of `a` to 1.
+set a w/= 0 &amp;lt;- 1;
+
+Message($&amp;quot;{b}&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What will the value of &lt;code&gt;b&lt;/code&gt; be after running all the code above?
+&lt;em&gt;Reminder you can run all the code in this post 
+&lt;a href=&#34;https://mybinder.org/v2/gist/cgranade/09dabfe1cc2e650cd88d2cfc98185791/master&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on Binder&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;div style=&#39;position:relative; padding-bottom:calc(54.40% + 44px)&#39;&gt;&lt;iframe src=&#39;https://gfycat.com/ifr/PrestigiousAggravatingEastsiberianlaika&#39; frameborder=&#39;0&#39; scrolling=&#39;no&#39; width=&#39;100%&#39; height=&#39;100%&#39; style=&#39;position:absolute;top:0;left:0;&#39; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt; &lt;a href=&#34;https://gfycat.com/prestigiousaggravatingeastsiberianlaika&#34;&gt;via Gfycat&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The answer here comes down to the difference between whether we think of a variable as storing a &lt;em&gt;value&lt;/em&gt;, or as being a &lt;em&gt;reference&lt;/em&gt; to something.
+In Q#, everything is a value, so when we define a new variable with &lt;code&gt;let b = a&lt;/code&gt;, we tell the Q# compiler that we want the &lt;em&gt;value&lt;/em&gt; of &lt;code&gt;b&lt;/code&gt; to be equal to whatever the value of &lt;code&gt;a&lt;/code&gt; is.&lt;/p&gt;
+&lt;p&gt;Therefore, the snippet above will print out the array &lt;code&gt;[2, 4, 6]&lt;/code&gt;, because after we defined &lt;code&gt;b&lt;/code&gt; as having the value that &lt;code&gt;a&lt;/code&gt; had at that moment (&lt;code&gt;[2, 4, 6]&lt;/code&gt;), not a reference to the variable &lt;code&gt;a&lt;/code&gt;.
+Put differently, &lt;code&gt;b&lt;/code&gt; does not know anything about &lt;code&gt;a&lt;/code&gt;, let alone any later changes to &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Thinking of arrays as values also helps explain what &lt;code&gt;w/=&lt;/code&gt; is all about in the code above.
+In Q#, &lt;code&gt;w/&lt;/code&gt; is a ternary operator (that is, one with three arguments) that makes a new array given: an old array, an index you want to replace, and a new element to put at that index.
+For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Q#&#34;&gt;let a = [2, 4, 6] w/ 0 &amp;lt;- 1;
+Message($&amp;quot;{a}&amp;quot;); // Prints [1, 4, 6].
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Since &lt;code&gt;w/&lt;/code&gt; is an operator, you can use it like &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, or any other operator to make Q# values:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Q#&#34;&gt;let a = ([2, 4, 6] w/ 0 &amp;lt;- 1 w/ 2 &amp;lt;- 10) + [20];
+Message($&amp;quot;{a}&amp;quot;); // Prints [1, 4, 10, 20].
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When updating the value of a mutable variable, Q# provides helpful shorthand for using an operator in-place as an assignment operator:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Q#&#34;&gt;mutable a = 10;
+set a += 1;
+Message($&amp;quot;{a}&amp;quot;); // Prints 11.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The same exact shorthand works for &lt;code&gt;w/&lt;/code&gt;, so you can use &lt;code&gt;w/=&lt;/code&gt; as a shorthand:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Q#&#34;&gt;mutable a = [2, 4, 6];
+// Both of the following lines are equivalent:
+set a = a w/ 0 &amp;lt;- 1;
+set a w/= 0 &amp;lt;- 1;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What makes all of this work is that in Q#, everything is a value.
+The array &lt;code&gt;[2, 4, 6]&lt;/code&gt; is a value in precisely the same way as &lt;code&gt;2&lt;/code&gt; is a value, or that &lt;code&gt;true&lt;/code&gt;, &lt;code&gt;&amp;quot;foo&amp;quot;&lt;/code&gt;, and &lt;code&gt;3.14&lt;/code&gt; are values.&lt;/p&gt;
+&lt;!-- A good thing to remember in Q# is that all variables are _value types_.
+That means that you cannot use references to values, everything itself is a value.  --&gt;
+&lt;h2 id=&#34;how-do-q-arrays-compare-to-similar-concepts-in-other-languages&#34;&gt;How do Q# arrays compare to similar concepts in other languages?&lt;/h2&gt;
+&lt;p&gt;In Python, there isn&amp;rsquo;t exactly an array type, so let&amp;rsquo;s look at some related types you might use in a similar way.
+Lists, tuples, and strings in Python are ways of organizing collections of elements, so let&amp;rsquo;s compare how they work to Q# arrays.&lt;/p&gt;
+&lt;p&gt;Tuples and strings are &lt;em&gt;immutable&lt;/em&gt;, meaning that they cannot be changed after they are created.
+What happens in the following snippet?&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a = &amp;quot;Hello world!&amp;quot;
+b = a
+a = a[:5] + &amp;quot; Cruel&amp;quot; + a[5:]
+print(b)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will print &lt;code&gt;Hello world!&lt;/code&gt;, because &lt;code&gt;b&lt;/code&gt; is immutable once created.
+The third line where we construct a new value for &lt;code&gt;a&lt;/code&gt; works because we are not trying to change &lt;code&gt;a&lt;/code&gt;&#39;s previous value, but give an entirely new one.&lt;/p&gt;
+&lt;p&gt;C# takes a very similar approach, treating strings as immutable.
+Try running the following example in a 
+&lt;a href=&#34;&#34;&gt;C# Notebook&lt;/a&gt; and see what you get!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-C#&#34;&gt;var s = &amp;quot;abc&amp;quot;;
+var t = s;
+s = s.Remove(1, 1).Insert(1, &amp;quot;B&amp;quot;);
+(s, t)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This immutability makes it really easy to reason about side-effects, since nothing else in your Python program can possibly mess with what &lt;code&gt;a&lt;/code&gt; is.
+Where immutability in Python gets inconvenient, though, is if you want to replace just one element of a tuple or string:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; a = &amp;quot;Hello, world!&amp;quot;
+&amp;gt;&amp;gt;&amp;gt; a[-1] = &amp;quot;?&amp;quot;
+Traceback (most recent call last):
+  File &amp;quot;&amp;lt;stdin&amp;gt;&amp;quot;, line 1, in &amp;lt;module&amp;gt;
+TypeError: &#39;str&#39; object does not support item assignment
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To help with this, Python also provides &lt;em&gt;lists&lt;/em&gt;, which are really similar to tuples, but are mutable; that is, the contents of lists can be changed after they are created.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; a = [2, 4, 6]
+&amp;gt;&amp;gt;&amp;gt; a[-1] = 10
+&amp;gt;&amp;gt;&amp;gt; a
+[2, 4, 10]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;One way to think about Q# arrays, then, is as being similar to Python tuples, but with a cool operator (&lt;code&gt;w/&lt;/code&gt;) that lets you use them in the same ways as lists &lt;em&gt;even without needing mutable collections&lt;/em&gt;.
+That lets you get all the benefits and predictability of immutable collections like Python strings and tuples, and like C# strings, but with the flexibility that you would normally expect from mutable collections like Python lists and and C# arrays.&lt;/p&gt;
+&lt;p&gt;You can use Q# arrays to implement a wide range of classical computing tasks from within your quantum programs, even including things like 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Quicksort#Algorithm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the quicksort algorithm&lt;/a&gt;!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Q#&#34;&gt;function Sorted&amp;lt;&#39;T&amp;gt;(comparisonFunction : ((&#39;T, &#39;T) -&amp;gt; Bool), inputArray: &#39;T[]) : &#39;T[] {
+    if (Length(inputArray) &amp;lt;= 1) {
+        return inputArray;
+    }
+    let pivot = Head(inputArray);
+    let left = Filtered(comparisonFunction(_, pivot), Rest(inputArray));
+    let right = Filtered(Compose(Not, comparisonFunction(_, pivot)), Rest(inputArray));
+
+    return Sorted(comparisonFunction, left) + [pivot] + Sorted(comparisonFunction, right);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Because Q# arrays are values, it&amp;rsquo;s really easy to predict how they&amp;rsquo;ll behave in your quantum programs, even as you do things like use the 
+&lt;a href=&#34;https://docs.microsoft.com/quantum/language/type-model#adjoint&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Adjoint&lt;/code&gt; functor&lt;/a&gt; to run parts of your programs backwards.
+Arrays are a great example of how the classical programming features of Q# are designed, making it easy to use for quantum computing 💖&lt;/p&gt;
+&lt;h2 id=&#34;more-resources&#34;&gt;More Resources!&lt;/h2&gt;
+&lt;p&gt;Want to learn more about arrays in Q# or Quantum Computing?
+Check out the links below for some good resources! 😀&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.manning.com/books/learn-quantum-computing-with-python-and-q-sharp?a_aid=learn-qc-granade&amp;amp;a_bid=ee23f338&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn Quantum Computing with Python and Q#, Chapter 8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://docs.microsoft.com/qsharp/api/qsharp/microsoft.quantum.arrays&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Microsoft.Quantum.Arrays&lt;/code&gt; API Reference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://docs.microsoft.com/quantum/language/type-model#array-types&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Description of the type model for Q#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://docs.microsoft.com/quantum/libraries/standard/data-structures&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discussion of data structures in the Q# Libraries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://docs.microsoft.com/quantum/language/expressions#copy-and-update-expressions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copy and update expression Q# docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://devblogs.microsoft.com/qsharp/qsharp-06-language-features-and-more/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Q# Blog post by Bettina Heim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Qsharp Community</title>
+      <link>/project/qsharp-community/</link>
+      <pubDate>Tue, 28 Apr 2020 23:02:41 -0700</pubDate>
+      <guid>/project/qsharp-community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Women in Quantum Computing and Applications (WIQCA)</title>
+      <link>/project/wiqca/</link>
+      <pubDate>Tue, 28 Apr 2020 23:02:30 -0700</pubDate>
+      <guid>/project/wiqca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Party Invitations:</title>
+      <link>/blog/2019/12/17/party-invitations/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 -0700</pubDate>
+      <guid>/blog/2019/12/17/party-invitations/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;This is a post contributing to 
+&lt;a href=&#34;https://twitter.com/hashtag/qsadvent&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#QsAdvent&lt;/a&gt; 2019&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Tis&amp;rsquo; the season of holiday parties, gathering co-workers and their families to eat much delicious food, and share pictures of their pets.
+Compared with most of my work environments, having a more diverse group causes a marked change in conversation tone and participation.
+After a few such parties lately, I wanted to reflect on how we as a community can encourage diversity in quantum computing.
+If the kind of inclusion at a holiday party can change how and who we talk to, how much different would our research progress look if we had a more diverse community?
+If we don&amp;rsquo;t take proactively steps to invite everyone to the quantum party, we will be stuck with the current &amp;ldquo;diversity&amp;rdquo; endemic to the system.&lt;/p&gt;
+&lt;h2 id=&#34;what-can-we-do-to-make-sure-everyone-is-invited-to-the-party&#34;&gt;What can we do to make sure everyone is invited to the party?&lt;/h2&gt;
+&lt;p&gt;There are lots of different ways we can encourage inclusion in quantum computing, from having codes of conduct at events like hackathons and meetups, to encouraging open community contributions and discussion online with open source projects.
+I could probably write a number of posts on these topics, but since this is a Q# advent post, I want to talk specifically here about what I have learned about being more inclusive when teaching Q#.&lt;/p&gt;
+&lt;p&gt;So, why does documentation and learning tools matter?
+Whenever I get to start a new project in a language or toolchain I don&amp;rsquo;t know I go straight to the docs and whatever &amp;ldquo;Hello World!&amp;rdquo; tutorials I can find.
+I know for myself, if the first 101 level tutorial I find uses only male pronouns or all kinds of terms I don&amp;rsquo;t know, it is easy to get discouraged.
+Given quantum computing&amp;rsquo;s academic background, it is easy to slip into language that is familiar and comfortable at a physics conference but that is really alienating for someone new to the field.
+With this post, I want to offer three tips I have learned to help make the Q# projects I am working on more inclusive.
+I also encourage you if you have more ideas or discussion on this topic to join the 
+&lt;a href=&#34;https://gitter.im/qsharp-community/community&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qsharp.community chat&lt;/a&gt;!&lt;/p&gt;
+&lt;h3 id=&#34;teach-by-exploration-and-games&#34;&gt;Teach by exploration and games&lt;/h3&gt;
+&lt;p&gt;One of the biggest challenges my co-author Chris Granade and I have run into when working on 
+&lt;a href=&#34;bit.ly/qsharp-book&#34;&gt;our book on Q#&lt;/a&gt; is motivating some of the techniques and algorithms we are trying to teach.
+What happens is the algorithms have been developed usually with applications in mind that are very technical.
+By the time you have explained the physics of the motivating example, it is hard to make progress on what you actually want to teach which is the actual algorithm or quantum development technique.
+Especially if we want to fine more applications for quantum computing, I think it is hard to &amp;ldquo;bake in&amp;rdquo; so much of these initial examples to how we are teaching the techniques themselves.
+We can teach sorting algorithms without making everyone learn the gory details of a specific data set that it was used on first.&lt;/p&gt;
+&lt;p&gt;Our approach to avoid this unnecessary confusion and baggage is to re-formulate the scenarios or examples as games.
+We were inspired by the non-local games already a big part of quantum for talking about correlation and testing quantum mechanics.
+When everything is a game, its easy to focus on writing code that would win.&lt;/p&gt;
+&lt;p&gt;For example, phase estimation is a very common quantum algorithm that is useful for transferring information about operations between global and local phases.
+This is important as we can only measure local phases so we need a way to shuffle phase around.
+If we look at the way 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Quantum_phase_estimation_algorithm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia&lt;/a&gt; and 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Quantum_Computation_and_Quantum_Information&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quantum Computation and Quantum Information&lt;/a&gt; describes phase estimation:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Given a unitary matrix 𝑈 and a quantum state |𝜓⟩ such that 𝑈|𝜓⟩ =e^{2𝜋𝑖𝛳}|𝜓⟩, the algorithm estimates the value of 𝛳 with high probability within additive error 𝜀 , using 𝑶(1/𝜀) controlled-U operations.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you don&amp;rsquo;t already know why this might be cool, unpacking it can take a fair bit of math.&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;
+	&lt;img src=&#34;featured.jpg&#34; alt=&#34;German shepard dog named Chewie laying on the couch on a book&#34; style=&#34;width: 60%; display: inline;padding-top: 1em;&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Even my new pup 
+&lt;a href=&#34;https://www.instagram.com/chewieborka/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chewie&lt;/a&gt; was not really interested in unitaries&lt;/em&gt; 😂&lt;/p&gt;
+&lt;p&gt;You can take the same algorithms and put it in terms of a game like in Chapter 8 of my book (where yes, many of the games involve characters from Arthurian legends):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dagonet is bored in the castle one evening and decides to try and engage Lancelot in a game.
+Dagonet has a black box which applies a rotation operation to the input qubit by some angle. Lancelot can provide an additional number input to the black box which gets multiplied with the rotation angle Dagonet already secretly hid in the box, and then is angle the input qubit is rotated by. What is Lancelot&amp;rsquo;s best strategy to guess Dagonet&amp;rsquo;s hidden angle as efficiently as possible?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This second way of presenting the same scenario is much more approachable and will help reduce any intimidation presented by the mathematical notation.
+It also allows the learners to have a mental model for the scenario, and use that to help drive further questions and exploration.
+Q# really makes the games based approach easy as it is a fairly high level language, so it&amp;rsquo;s easy to skip how things are implemented to start and focusing on &lt;em&gt;why&lt;/em&gt;.
+The libraries for Q# also help a lot in that they can allow users to jumpstart fairly complicated algorithms by using library operations as subroutines.&lt;/p&gt;
+&lt;p&gt;If you like this approach or want to see more, check out 
+&lt;a href=&#34;bit.ly/qsharp-book&#34;&gt;&lt;em&gt;Learn Quantum Computing with Python and Q#&lt;/em&gt;&lt;/a&gt;, now in early preview from Manning!&lt;/p&gt;
+&lt;h3 id=&#34;get-over-the-math&#34;&gt;Get over the math&lt;/h3&gt;
+&lt;p&gt;As we saw with the previous tip, the math used to describe quantum computing can be intimidating.
+One of the most common things I hear when I start talking with someone about quantum computing is &amp;ldquo;wow that&amp;rsquo;s a lot of math! I hate math!&amp;rdquo; or something to that effect.
+A great strength of quantum programming is that we don&amp;rsquo;t need to &lt;em&gt;start&lt;/em&gt; with the math to teach what is going on.
+Knowing the math we know to describe the quantum systems is still helpful, and I am not advocating from cutting it out entirely.
+When we start with the math, and especially without good introductions/right audiences it is easy to scare folks away.&lt;/p&gt;
+&lt;p&gt;With tools like Q# and the QDK, can jump right away to writing programs for quantum computers.
+It allows people to start playing around with algorithms and libraries, and not getting stuck in the math.
+Once they feel comfortable with the language and syntax they have a valuable tool that can help them when they start getting curious about the math.
+If something doesn&amp;rsquo;t make sense or they want to check their work, they can always just run the Q# code and dump the state of the simulator.
+There someone else has done the hard work of translating all of the math into software, and the student can use my colleagues&amp;rsquo; favorite development technique of tweak-compile-tweak 😊
+If visual tools resonate with the student, the 
+&lt;a href=&#34;https://www.sarahmarshall.name/blog/visualizing-quantum-state-with-qsharp.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Q# visual debugger&lt;/a&gt; can be a really great tool to help see what is going on without needing to doing the math by hand.&lt;/p&gt;
+&lt;h3 id=&#34;help-folks-get-to-programming-faster&#34;&gt;Help folks get to programming faster&lt;/h3&gt;
+&lt;p&gt;When learning a new language or starting a new project, one of the hardest parts can be setting up the development environment to get everything to work right.
+Then invariably, some Windows Update will break everything (or me just absentmindedly updating some part of the tool chain for another project).
+However, especially in a classroom setting the variety of devices and operating systems, it is extremely desirable to get up and running as quickly as possible.
+Having run some workshops and tutorials, I know the hard way what its like to have a whole room full of people trying to get everything up and running for a project from scratch 😵
+That&amp;rsquo;s where having the 
+&lt;a href=&#34;https://mybinder.org/v2/gh/Microsoft/QuantumKatas/master?filepath=index.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Q# Katas as Jupyter notebooks you can run in your browser&lt;/a&gt; and the entire Quantum Development Kit useable from the browser with 
+&lt;a href=&#34;https://visualstudio.microsoft.com/services/visual-studio-online/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visual Studio Online&lt;/a&gt; can really be handy.
+I can just prepare a notebook and conda enviroment ahead of time and with just one click, everyone can be on the same page, ready to start developing together💖&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;On Dec 22nd, check out Chris Granade&amp;rsquo;s #QsAdvent 
+&lt;a href=&#34;https://www.cgranade.com/blog/2019/12/22/reproducible-research-with-qsharp.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;post on reproducible research&lt;/a&gt;, which gets into more detail on containerizing and reproducible use of the QDK.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;use-language-effectively&#34;&gt;Use language effectively&lt;/h3&gt;
+&lt;p&gt;At the end of the day we all must go through and document projects and write the tutorials. we have to spend some time thinking about words and how to communicate the cool stuff we learned.
+This is a huge opportunity to make sure that the words we are actually using do encourage and include as many learners as possible.
+Some specific examples of this are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pronoun use:&lt;/strong&gt; Many technical docs will often default to masculine pronouns, make sure to either mix it up as you write/speak and use a variety of pronouns. Better yet, just use they!&lt;!-- CG: better yet, use &#34;they!&#34; It&#39;s centuries-old retro goodness, and as a bonus makes you 121% less likely to be an asshole! --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proper nouns in naming:&lt;/strong&gt; As highlighted in the 
+&lt;a href=&#34;https://docs.microsoft.com/en-us/quantum/contributing/style-guide?view=qsharp-preview&amp;amp;tabs=guidance#proper-nouns-in-names&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Q# style guide&lt;/a&gt;, naming things after &amp;ldquo;important&amp;rdquo; people can be difficult if your audience is not familiar with them. Especially as the quantum community grows past its physics roots, naming something a Fredkin operation conveys far less information than if it was called &lt;code&gt;Controlled SWAP&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terms that are racist/misogynistic/harmful:&lt;/strong&gt; We have seen the rise of some terms in quantum computing, like &amp;ldquo;quantum supremacy&amp;rdquo; that are directly harmful to the community. For example, see the 
+&lt;a href=&#34;https://www.quantumresponsibility.org/openletter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;open letter&lt;/a&gt; posted in 
+&lt;a href=&#34;https://doi.org/10.1038/d41586-019-03781-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Nature&lt;/em&gt;&lt;/a&gt; that clarifies why we should stop using this term immediately. For more on this topic, see 
+&lt;a href=&#34;https://medium.com/@emma.m.mckay/why-we-need-to-get-over-quantum-supremacy-619ddf67ae72&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this fabulous blog&lt;/a&gt; by Emma McKay.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;One of the most exciting things to me is to see how this new quantum development community grows, and how we have the power to shape it.
+This is why inclusive docs, tutorials, blog posts, etc. are all so important as is how we can invite people to give quantum computing a go.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;On social media use the tags &lt;strong&gt;#qsharp&lt;/strong&gt;, &lt;strong&gt;#AzureQuantum&lt;/strong&gt;, and &lt;strong&gt;#qsharpeningmyskills&lt;/strong&gt; so all quantum developers can learn together 💖&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Happy Hamiltonians and may you find your ground state in 2020! 🎁⛄❄🍷🎶💻&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;qsharp.community&#34;&gt;Q# Community&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://cloudblogs.microsoft.com/quantum/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MSFT Quantum Team Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://devblogs.microsoft.com/qsharp/q-advent-calendar-2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Q# Advent Calendar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>/cv/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotics for Babies</title>
+      <link>/publication/ferrie-robotics-babies-2019/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ferrie-robotics-babies-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Give an engineer a book to sign...</title>
+      <link>/blog/2019/01/02/give-an-engineer-a-book-to-sign.../</link>
+      <pubDate>Wed, 02 Jan 2019 17:09:50 -0700</pubDate>
+      <guid>/blog/2019/01/02/give-an-engineer-a-book-to-sign.../</guid>
+      <description>&lt;p&gt;I always start maker projects with the best of intentions to blog what my partner 
+&lt;a href=&#34;https://twitter.com/cgranade&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@cgranade&lt;/a&gt; and I work on, but sometimes in the excitement of making something new, blogging can get forgotten.
+An important part of the engineering process is &lt;strong&gt;documentation&lt;/strong&gt;, though, so it seems fitting to kick-off posting some of the stuff we make with a fun way to personalize books!&lt;/p&gt;
+&lt;p&gt;In this episode, my partner and I had just gone out and bought a bunch of sharpies because my first book (such an amazing feeling!!) is now out, 
+&lt;a href=&#34;https://amzn.to/2COVYW5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The ABCs of Engineering&lt;/a&gt; with 
+&lt;a href=&#34;https://csferrie.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chris Ferrie&lt;/a&gt;.&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;
+&lt;img src=&#34;2019-01-12-book-stack.jpg&#34; alt=&#34;Newly arrived author copies of my new book&#34; style=&#34;width: 60%; display: inline;padding-top: 1em;&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;I had promised a bunch of people signed copies, and wanted some good ammo.
+I started working on the signature I wanted to use, but really didn&amp;rsquo;t like how the Sharpies made it look, or how easily the signatures could be wiped off some of the printing.&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;
+&lt;img src=&#34;2019-01-12-signature-practice.jpeg&#34; alt=&#34;Sharpie signature practice&#34; style=&#34;width: 60%; display: inline;padding-top: 1em;&#34;/&gt;
+&lt;/p&gt;
+So I thought, how could I make this more permanent and more personal...
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Can this problem be solved with lasers (y/n)?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;y&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;_the-mission_&#34;&gt;&lt;em&gt;The mission&lt;/em&gt;:&lt;/h2&gt;
+&lt;p&gt;Take the signature that I was practicing to sign the books with, and turn that into something that could be etched on a board book.&lt;/p&gt;
+&lt;p&gt;I have to thank 
+&lt;a href=&#34;https://twitter.com/cgranade&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@cgranade&lt;/a&gt; for his help on this, he was the official laser cutter whisperer for this project (and because I don&amp;rsquo;t have access to a laser cutter at the moment ♥).&lt;/p&gt;
+&lt;h2 id=&#34;_the-plan_&#34;&gt;&lt;em&gt;The plan&lt;/em&gt;:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;I started by using a Surface Pen to draw what I wanted in a OneNote page.&lt;/p&gt;
+&lt;p&gt;Pretty straight forward, also considered paper with Sharpies and photo and then tracing, but that seemed like it would take longer.&lt;/p&gt;
+ &lt;p style=&#34;text-align: center;&#34;&gt;
+ &lt;img src=&#34;2019-01-12-onenote-signature.png&#34; alt=&#34;OneNote signature with straight lines&#34; style=&#34;width: 60%; display: inline;padding-top: 1em;&#34;/&gt;
+ &lt;/p&gt;
+ Also it had to involve lasers, so there is an homage to laser safety signs:
+ &lt;p style=&#34;text-align: center;&#34;&gt;
+ &lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/6/60/Laser-symbol-text.svg&#34; alt=&#34;Laser warning symbol, from wikipedia&#34; style=&#34;width: 60%; display: inline;padding-top: 1em;&#34;/&gt;
+ &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Figure out what parts of the design to etch or cut.&lt;/p&gt;
+&lt;p&gt;Laser cutters often have two modes, and there are tradeoffs for each mode.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cutting is faster, better for finer detail often, and well, cuts stuff.&lt;/li&gt;
+&lt;li&gt;Etching works when you want to change larger areas of your material, kinda like an adjustable laser peeler.
+I decided that because I can&amp;rsquo;t draw a straight line for anything, I wanted to do the laser emission symbol as a cut that I would use the computer to design.
+The rest of the letters I wanted to etch to maintain the look as if I had signed it with a pen.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;p style=&#34;text-align: center;&#34;&gt;
+ &lt;img src=&#34;2019-01-12-lasercutter-mode.jpg&#34; alt=&#34;Laser cutting v. etching&#34; style=&#34;width: 60%; display: inline;padding-top: 1em;&#34;/&gt;
+ &lt;/p&gt;
+&lt;p&gt;After the types of cut are chosen, the digital file is prepped (this step varies highly on the laser cutter itself, check the manual or software for a guide).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Experiment with setting of the laser on a similar material to achieve desired cut.&lt;/p&gt;
+&lt;p&gt;With the file loaded on the control computer, we need to figure out what laser settings achieve the cuts and etches we want.
+On the laser cutter we used here, this meant varying the speed and power of the laser for each part of the design.
+These settings do not hold for all materials, and can even change as the laser cutter itself ages, so we had to find good ones for the kind of paperboard the books were.
+Rather than messing up a book, we used some corrugated cardboard from the box they came in to test.
+
+&lt;a href=&#34;https://twitter.com/cgranade&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@cgranade&lt;/a&gt; has a real knack from experience for guessing good values for these parameters, so this testing went pretty quick.
+You can see some of his tests here, with notes of what settings he used for each:&lt;/p&gt;
+ &lt;p style=&#34;text-align: center;&#34;&gt;
+ &lt;img src=&#34;2019-01-12-cardboard-test.jpg&#34; alt=&#34;Cardboard test of laser cutter settings&#34; style=&#34;width: 60%; display: inline;padding-top: 1em;&#34;/&gt;
+ &lt;/p&gt;
+ The &#34;R&#34; and &#34;V&#34; next to each signature are [@cgranade](https://twitter.com/cgranade)&#39;s notes on what _raster_ and _vector_ settings are needed, which the control software uses to configure etching and cutting (respectively).
+&lt;p&gt;We ended up going with the one below (with a style modification suggested by 
+&lt;a href=&#34;https://twitter.com/cgranade&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@cgranade&lt;/a&gt;) because I liked the depth of the etch and the cut was not so deep it would risk cutting through the back page.&lt;/p&gt;
+ &lt;p style=&#34;text-align: center;&#34;&gt;
+ &lt;img src=&#34;2019-01-12-winning-settings.jpeg&#34; alt=&#34;Winning laser cutter settings&#34; style=&#34;width: 60%; display: inline;padding-top: 1em;&#34; rotate=&#34;90&#34;/&gt;
+ &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Test on an actual book!!!&lt;/p&gt;
+&lt;p&gt;After testing some parameters that worked on our cardboard proxy, it was time to try it on the real thing!
+I would have normally used some blue painter tape to cover the area I was going to cut to reduce scorching from the laser, but we didn&amp;rsquo;t see much on the cardboard we were testing on and if it did happen it would add to the ambiance :)
+Also, since each book was not quite flat, the focus of the laser was adjusted for each book to make sure the design looked the same on each.
+Here is some photos and a video of the cut!&lt;/p&gt;
+ &lt;p style=&#34;text-align: center;&#34;&gt;
+ &lt;img src=&#34;2019-01-12-book-on-cutter.jpg&#34; alt=&#34;Book on laser cutter&#34; style=&#34;width: 60%; display: inline;padding-top: 1em;&#34;/&gt;
+ &lt;/p&gt;
+ &lt;video width=&#34;640&#34; height=&#34;480&#34; controls&gt;
+ &lt;source src=&#34;2019-01-12-book-signing.mp4&#34; type=&#34;video/mp4&#34;&gt;
+ Your browser does not support the video tag.
+ &lt;/video&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;now-for-the-fun-part-a-giveaway&#34;&gt;Now for the fun part: A GIVEAWAY!&lt;/h2&gt;
+&lt;p&gt;Post a picture or description of what word/term you would add to the &lt;em&gt;ABCs of Engineering&lt;/em&gt; on Facebook, Instagram, or Twitter with the hashtag 
+&lt;a href=&#34;https://twitter.com/search?f=tweets&amp;amp;q=%23ABCsofEngineering&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#ABCsofEngineering&lt;/a&gt; and I will pick 3 at random on Feb 1st and mail a &lt;strong&gt;laser signed&lt;/strong&gt; copy of The ABCs of Engineering to you!&lt;/p&gt;
+&lt;p&gt;You can find copies of ABCs of Engineering at all of the following retailers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://t.co/jnvIIUAmN7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.indiebound.org/book/9781492671213&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Indiebound&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.barnesandnoble.com/w/abcs-of-engineering-chris-ferrie/1128189926?ean=9781492671213#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Barnes &amp;amp; Noble&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.booksamillion.com/p/ABCs-Engineering/Chris-Ferrie/9781492671213?id=6892826005771&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Books a Million&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.booktopia.com.au/abcs-of-engineering-chris-ferrie/prod9781492671213.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Booktopia (AU retailer)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABCs of Engineering</title>
+      <link>/publication/ferrie-ab-cs-engineering-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ferrie-ab-cs-engineering-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Networks for Babies</title>
+      <link>/publication/ferrie-neural-networks-babies-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ferrie-neural-networks-babies-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opening Presents Early</title>
+      <link>/blog/2018/12/22/opening-presents-early/</link>
+      <pubDate>Sat, 22 Dec 2018 00:00:00 -0700</pubDate>
+      <guid>/blog/2018/12/22/opening-presents-early/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;This is a post contributing to #QsAdvent 2018, check out all the others 
+&lt;a href=&#34;https://twitter.com/search?f=tweets&amp;amp;q=%23QsAdvent&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We are approaching a day of the year where many will open presents from family and friends, after eating until they are uncomfortably full. I thought it would be fun to highlight some tips for working with Q# this holiday break, so you can work on designing quantum algorithms snuggled up by a fire (or at least a space heater if in the northern hemisphere). Some of these may be obvious to different folks, so if you already know then give yourself a pat on the back 😃. Also they are in no particular order other than the order in which they occurred to me while drinking some eggnog and enjoying some Christmas Cake from Smitha, Naomi, and 
+&lt;a href=&#34;https://twitter.com/johnazariah/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@johnazariah&lt;/a&gt;! 🍒 🍰 🎄&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s just jump right in!&lt;/p&gt;
+&lt;h2 id=&#34;1-easy-ways-to-get-new-q-projects-started-&#34;&gt;1. Easy ways to get new Q# projects started&lt;/h2&gt;
+&lt;p&gt;Sometimes it can be daunting to setup new dev environments and start working with a new language. I had never done anything in .NET before learning Q#. As perennial as the IT help advice of turning things off and back on again is, looking at the docs for a new language can help you fast-track learning more than a random walk through StackExchange (though those are helpful too).&lt;/p&gt;
+&lt;p&gt;One thing I came across when going through the docs is the way you can use the .NET Core SDK from the command line to start a new project:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-pwsh&#34;&gt;dotnet new console -lang Q# --output Teleport-Presents
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If this doesn&amp;rsquo;t work for you, make sure you have the latest project templates installed:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-pwsh&#34;&gt;dotnet new -i Microsoft.Quantum.ProjectTemplates::0.3.1811.2802-preview
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;While I love having GUI tools to do certain tasks, I ♥ it when I can script setup/initialization of tasks. (Things like 
+&lt;a href=&#34;https://github.com/audreyr/cookiecutter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cookiecutter&lt;/a&gt; and personal 
+&lt;a href=&#34;https://dotfiles.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dotfiles&lt;/a&gt; repos ftw.)&lt;/p&gt;
+&lt;h2 id=&#34;2-cool-editor-integrations--some-amazing-codehttpstwittercomcode-features-too-&#34;&gt;2. Cool editor integrations (+ some amazing 
+&lt;a href=&#34;https://twitter.com/code&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@code&lt;/a&gt; features too!)&lt;/h2&gt;
+&lt;p&gt;Disclaimer: I am an avid 
+&lt;a href=&#34;https://code.visualstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visual Studio Code&lt;/a&gt; user (
+&lt;a href=&#34;https://visualstudio.microsoft.com/services/live-share/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Live Share&lt;/a&gt; and 
+&lt;a href=&#34;https://code.visualstudio.com/docs/editor/versioncontrol&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git integration&lt;/a&gt; 😍) and am using it with live markdown preview to write this post! I have to use lots of different IDEs for work that are often specially made for the embedded system&amp;rsquo;s language or just because it was how the project was set up. I was so happy to see some awesome Q# integrations to some of the 
+&lt;a href=&#34;https://www.cnbc.com/2018/12/20/microsoft-cmo-capossela-says-google-employees-use-visual-studio-code.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;most popular editors&lt;/a&gt; and IDEs, which means I can use some familiar tools and get a lot of creature comforts like 
+&lt;a href=&#34;https://cloudblogs.microsoft.com/quantum/2018/10/30/updated-quantum-development-kit-offers-new-chemistry-library-and-improved-developer-tools/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IntelliSense for real-time feedback on errors&lt;/a&gt;.
+I have listed more links below, but if you use Visual Studio or Visual Studio Code definitely check out the integration for Q#&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=quantum.DevKit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visual Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=quantum.quantum-devkit-vscode&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-project-local-v-installing-&#34;&gt;3. Project-local v. installing&lt;/h2&gt;
+&lt;p&gt;One thing thing I have learned troubleshooting my own projects is how Q# projects manage installation of packages they need.
+It turns out that Q# does things similar to the Pythonic paradigm of project environments (or many other similar implementations). A common experience one might have of &amp;lsquo;installing&amp;rsquo; something is that you run an &lt;code&gt;*.exe&lt;/code&gt; or similar and it does a bunch of often inscrutable things and then is in some app menu. This has a drawback though of if you need to manage multiple versions of something installed for different projects. If all the package files for a particular project are &amp;lsquo;installed&amp;rsquo; locally in the project folder then it makes it easy to move things around and importantly you can have many projects on your system that are all independent from each other.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.microsoft.com/en-us/nuget/media/nuget-roles.png&#34; alt=&#34;How .NET packages are managed, from creation to installation with NuGet&#34;&gt;
+_How .NET packages are managed, from creation to installation with 
+&lt;a href=&#34;https://docs.microsoft.com/en-us/nuget/what-is-nuget&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NuGet&lt;/a&gt; (figure used under MIT licence from &lt;a href=&#34;https://docs.microsoft.com/en-us/nuget/what-is-nuget)_&#34;&gt;https://docs.microsoft.com/en-us/nuget/what-is-nuget)_&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;All that they need in common is the &lt;code&gt;.NET Core SDK&lt;/code&gt; which is installed in the more traditional system wide sense. Look here for more information about 
+&lt;a href=&#34;https://docs.microsoft.com/en-us/quantum/install-guide/?view=qsharp-preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;installing the QDK&lt;/a&gt; or 
+&lt;a href=&#34;https://docs.microsoft.com/en-us/nuget/what-is-nuget&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;managing project packages&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;4-contribution-guide-what-repo-should-i-pr-on-&#34;&gt;4. Contribution Guide (what repo should I PR on?)&lt;/h2&gt;
+&lt;p&gt;So with the recent 
+&lt;a href=&#34;https://cloudblogs.microsoft.com/quantum/2018/10/30/updated-quantum-development-kit-offers-new-chemistry-library-and-improved-developer-tools/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.3 release&lt;/a&gt; of the QDK there was a bit of a refactor of the GitHub repos.
+There are now a couple of different repos so I&amp;rsquo;ll summarize below what each has and what kind of pull requests (git for community contributions!) should go where.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Repo&lt;/th&gt;
+&lt;th&gt;What can I find here?&lt;/th&gt;
+&lt;th&gt;What should I contribute here?&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://github.com/Microsoft/QuantumLibraries&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quantum Libraries&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Q# libraries for the Quantum Development Kit. These are the repos that have the source for libraries in the QDK like the canon and the chemistry ones.&lt;/td&gt;
+&lt;td&gt;Bug fixes, new features for the QDK, anything really that can improve the libraries!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://github.com/Microsoft/Quantum&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quantum&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Microsoft Quantum Development Kit Samples&lt;/td&gt;
+&lt;td&gt;Do you have a cool example of an algorithm, or sample using the QDK libraries you want to share? This is the place!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://github.com/Microsoft/QuantumKatas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QuantumKatas&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Programming exercises for learning Q# and quantum computing&lt;/td&gt;
+&lt;td&gt;This collection of self-passed tutorials could use your notes, bug fixes, and additions to help the community grow!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://github.com/Microsoft/Quantum-NC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quantum-NC&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Microsoft Quantum Computing Libraries for noncommercial use&lt;/td&gt;
+&lt;td&gt;Unfortunately, not open for contributions.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;5-functions-v-operations-&#34;&gt;5. Functions v. Operations&lt;/h2&gt;
+&lt;p&gt;There are two concepts in the QDK that were a bit confusing to me at the start, but the difference is pretty clear now. &lt;em&gt;Operations&lt;/em&gt; are how you get things done with your qubits, in that they are how you effect change in your system. Operations need not be quantum or interact with qubits, but the main property they have is that they &lt;em&gt;do&lt;/em&gt; things. Examples of operations could be a rotation gate acting on a qubit, or rolling a classical die.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Functions&lt;/em&gt; on the other hand are meant to be more like the mathematical concept: a specification for a deterministic calculation or computation. An example of a function could be a polynomial like $x^2 + x-1$ or the trig function $\cos(x)$. Operations can involve/use functions, but functions can&amp;rsquo;t call operations because what operations &lt;em&gt;do&lt;/em&gt; to the system can be non-deterministic.&lt;/p&gt;
+&lt;p&gt;Look 
+&lt;a href=&#34;https://docs.microsoft.com/en-ca/quantum/techniques/operations-and-functions?view=qsharp-preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; for more information about functions and operations.&lt;/p&gt;
+&lt;h2 id=&#34;6-a-qubit-value-is-_not_-a-state-&#34;&gt;6. A qubit value is &lt;em&gt;NOT&lt;/em&gt; a state&lt;/h2&gt;
+&lt;p&gt;One fundamental difference between quantum programing and classical programming is the nature of the information you are creating and manipulating.
+In many classical programing languages, we have the ability to debug programs by pausing them while they are running and inspecting values of variables at any time to try and sort out what your program is doing.
+We can&amp;rsquo;t exactly do the same with qubits.
+The very act of inspecting or measuring a qubit changes our qubits where as our classical debugging tools does not.&lt;/p&gt;
+&lt;p&gt;Now, if you are using a simulator backend to run your quantum program, it has to record things about what states a qubit could be in and in principle you could look at those values debugging something.
+However, this should &lt;em&gt;never&lt;/em&gt; be relied on part of a quantum program, because you would not be able to do this inspection step without consequences on real hardware.
+The state of a qubit is not some inherent property of the system, but more of a formalism we have imposed to help us understand their behavior.
+There are other ways to debug quantum programs but like actual quantum algorithms they are different and interesting in their own right.
+(Let&amp;rsquo;s not open &lt;em&gt;allllll&lt;/em&gt; of the presents early, after all.)&lt;/p&gt;
+&lt;h2 id=&#34;7-dont-forget-to-clean-up-after-your-qubits-&#34;&gt;7. Don&amp;rsquo;t forget to clean up after your qubits!&lt;/h2&gt;
+&lt;p&gt;There used to be a time when most programing languages required programmers to manually manage memory.
+Whether it is because you are trying to squeeze every last ounce of performance out of your hardware or that there is no support for memory management in your language, it adds some complexity to how we think about our programs.
+Quantum computers have a similar requirement to have information cleanup managed, but for slightly different reasons.&lt;/p&gt;
+&lt;p&gt;In a quantum computer, all operations must be &lt;em&gt;reversible&lt;/em&gt; and thus cannot leak any information. (If information leaked in the forward direction, it would make it impossible to run in reverse!)
+What this means is that when we use qubits for operations, we will need to make sure they end in the same state they started in to make sure we are able to reverse whatever our algorithm does.
+In Q#, this has the consequence that we need to use the &lt;code&gt;Reset&lt;/code&gt; and related functions to make sure our qubits end as they start, in the |0〉state (by convention).&lt;/p&gt;
+&lt;p&gt;How does &lt;code&gt;Reset&lt;/code&gt; work you ask? It:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;measures the qubit in the $Z$ basis,&lt;/li&gt;
+&lt;li&gt;then based on the measurement outcome (0 or 1 classical bit values) either does nothing or applies a quantum NOT gate (a.k.a. rotation by 180° about the $X$ axis)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now if you have already measured your qubit doing a regular &lt;code&gt;Reset&lt;/code&gt; or &lt;code&gt;ResetAll&lt;/code&gt; is going to introduce some overhead because it does not know what your previous measurement results are. Thankfully if you know you are done with a qubit after you measure it, check out the &lt;code&gt;MResetX&lt;/code&gt;, &lt;code&gt;MResetY&lt;/code&gt;, and &lt;code&gt;MResetZ&lt;/code&gt; functions (more info 
+&lt;a href=&#34;https://docs.microsoft.com/en-ca/qsharp/api/canon/microsoft.quantum.canon.mresetx?view=qsharp-preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;) which both measure your qubit for you and use that information to right away reset your qubit!&lt;/p&gt;
+&lt;h2 id=&#34;8-tuple-in-tuple-out-&#34;&gt;8. Tuple-in tuple-out&lt;/h2&gt;
+&lt;p&gt;This one is pretty straightforward but basically there is no such thing as &lt;code&gt;void&lt;/code&gt; as a return for any function or operation in Q#. You will always get a tuple return even if it&amp;rsquo;s an empty tuple.&lt;/p&gt;
+&lt;p&gt;For more information on the type system in Q# see 
+&lt;a href=&#34;https://docs.microsoft.com/en-ca/quantum/techniques/type-model?view=qsharp-preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;9-net-what-now-&#34;&gt;9. .NET what now?&lt;/h2&gt;
+&lt;p&gt;Probably one the most common issues I see on forums and whatnot is installation problems with .NET Core SDK. This is understandable, I myself had to do some research on what the difference was between .NET Core, .NET Standard, and .NET Framework. Plus, each has an option to just install a runtime or a full SDK. The tl;dr is that .NET Framework is for Windows, while .NET Core is a cross-platform version of .NET &amp;mdash; it&amp;rsquo;s not a strict subset of the functionality, but adds in a few nice things along the way. .NET Standard is the proper subset of both .NET Core and .NET Framework that works on all systems (see below figure).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;dotnet-ven.png&#34; alt=&#34;.NET Venn diagram&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The bottom line is that Q# is designed to only need the .NET Standard components, but that is not distributed separately from the other two .NET versions. So the 
+&lt;a href=&#34;https://docs.microsoft.com/en-ca/quantum/install-guide/command-line?view=qsharp-preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install guide&lt;/a&gt; for Q# suggests to download and install the .NET Core SDK and then you will have the components you need from .NET Standard for use on either .NET Framework or .NET Core, as well as a more cross-platform SDK.&lt;/p&gt;
+&lt;h2 id=&#34;10-is-my-computer-a-quantum-computer-now-&#34;&gt;10. Is my computer a quantum computer now?&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;No, sadly installing the QDK will not magically turn your computer into a quantum computer.&lt;/em&gt; Nor will you be able to break RSA or run a quantum internet browser. You will have your same &lt;em&gt;classical&lt;/em&gt; device but that can for the moment simulate small quantum systems and help you learn how to develop your own quantum algorithms! For more directly from the developers as to why they made Q# see their post 
+&lt;a href=&#34;https://blogs.msdn.microsoft.com/visualstudio/2018/11/15/why-do-we-need-q/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hopefully at least one of these tips will make a good stocking stuffer! I&amp;rsquo;ll finish out with some more links to online resources from &amp;lsquo;round the net where people are discussing, learning, and asking questions about Q#!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Also on social media use the tags &lt;strong&gt;#qsharp&lt;/strong&gt; and &lt;strong&gt;#qsharpeningmyskills&lt;/strong&gt; so all quantum programmers can help learn together 💖&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Happy Hamiltonians and may you find your ground state in 2019! 🎁⛄❄🍷🎶💻&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://stackoverflow.com/questions/tagged/q%23?sort=newest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Q# stack overflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://cloudblogs.microsoft.com/quantum/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MSFT Quantum Team Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://blogs.msdn.microsoft.com/visualstudio/2018/11/15/q-advent-calendar-2018/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Q# Advent Calendar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quantum Machine Learning in context: What is a quantum algorithm anyway?</title>
+      <link>/research/talks/quantum-machine-learning-in-context-what-is-a-quantum-algorithm-anyway/</link>
+      <pubDate>Thu, 04 Oct 2018 19:00:00 -0700</pubDate>
+      <guid>/research/talks/quantum-machine-learning-in-context-what-is-a-quantum-algorithm-anyway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/terms/</guid>
+      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Super Cool Science: An Exploration Of Modern Experiment</title>
+      <link>/research/talks/super-cool-science-an-exploration-of-modern-experiment/</link>
+      <pubDate>Thu, 22 Jun 2017 14:00:00 -0700</pubDate>
+      <guid>/research/talks/super-cool-science-an-exploration-of-modern-experiment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spontaneous Superradiance from Single Diamond Nanocrystals</title>
+      <link>/research/talks/spontaneous-superradiance-from-single-diamond-nanocrystals/</link>
+      <pubDate>Mon, 29 May 2017 14:10:00 +1000</pubDate>
+      <guid>/research/talks/spontaneous-superradiance-from-single-diamond-nanocrystals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extending the reach of QKD</title>
+      <link>/research/talks/extending-the-reach-of-qkd/</link>
+      <pubDate>Wed, 05 Apr 2017 15:00:00 +1000</pubDate>
+      <guid>/research/talks/extending-the-reach-of-qkd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photon phreaking: What quantum can (actually) do for security</title>
+      <link>/research/talks/photon-phreaking-what-quantum-can-actually-do-for-security/</link>
+      <pubDate>Thu, 23 Feb 2017 17:00:00 +1000</pubDate>
+      <guid>/research/talks/photon-phreaking-what-quantum-can-actually-do-for-security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Airborne Demonstration of a Quantum Key Distribution Receiver Payload</title>
+      <link>/publication/pugh-airborne-demonstration-quantum-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/pugh-airborne-demonstration-quantum-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum key distribution devices: How to make them and how to break them</title>
+      <link>/research/talks/quantum-key-distribution-devices-how-to-make-them-and-how-to-break-them/</link>
+      <pubDate>Wed, 10 Aug 2016 09:00:00 -0500</pubDate>
+      <guid>/research/talks/quantum-key-distribution-devices-how-to-make-them-and-how-to-break-them/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum Key Distribution Devices: How to Make Them and How to Break Them</title>
+      <link>/publication/kaiser-quantum-key-distribution-2016/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/kaiser-quantum-key-distribution-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical Quantum Cryptography Devices: How To Make Them And How To Break Them</title>
+      <link>/research/talks/practical-quantum-cryptography-devices-how-to-make-them-and-how-to-break-them/</link>
+      <pubDate>Fri, 01 Apr 2016 16:00:00 +1000</pubDate>
+      <guid>/research/talks/practical-quantum-cryptography-devices-how-to-make-them-and-how-to-break-them/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creation of Backdoors in Quantum Communications via Laser Damage</title>
+      <link>/publication/makarov-creation-backdoors-quantum-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/makarov-creation-backdoors-quantum-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum Safe Cryptography and Security - An Introduction, Benefits, Enablers and Challenges</title>
+      <link>/publication/quantum-safe-cryptography-2015/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/quantum-safe-cryptography-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attacks Exploiting Deviation of Mean Photon Number in Quantum Key Distribution and Coin Tossing</title>
+      <link>/publication/sajeed-attacks-exploiting-deviation-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/sajeed-attacks-exploiting-deviation-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experimental Quantum Key Distribution with Source Flaws</title>
+      <link>/publication/xu-experimental-quantum-key-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/xu-experimental-quantum-key-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Free-Space Quantum Key Distribution to a Moving Receiver</title>
+      <link>/publication/bourgoin-freespace-quantum-key-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/bourgoin-freespace-quantum-key-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

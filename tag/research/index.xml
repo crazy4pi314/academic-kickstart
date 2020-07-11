@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research | Academic</title>
+    <link>/tag/research/</link>
+      <atom:link href="/tag/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>research</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sarah Kaiser 2020</copyright><lastBuildDate>Fri, 01 Apr 2016 16:00:00 +1000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>research</title>
+      <link>/tag/research/</link>
+    </image>
+    
+    <item>
+      <title>Practical Quantum Cryptography Devices: How To Make Them And How To Break Them</title>
+      <link>/research/talks/practical-quantum-cryptography-devices-how-to-make-them-and-how-to-break-them/</link>
+      <pubDate>Fri, 01 Apr 2016 16:00:00 +1000</pubDate>
+      <guid>/research/talks/practical-quantum-cryptography-devices-how-to-make-them-and-how-to-break-them/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>qkd | Academic</title>
+    <link>/tag/qkd/</link>
+      <atom:link href="/tag/qkd/index.xml" rel="self" type="application/rss+xml" />
+    <description>qkd</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sarah Kaiser 2020</copyright><lastBuildDate>Wed, 05 Apr 2017 15:00:00 +1000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>qkd</title>
+      <link>/tag/qkd/</link>
+    </image>
+    
+    <item>
+      <title>Extending the reach of QKD</title>
+      <link>/research/talks/extending-the-reach-of-qkd/</link>
+      <pubDate>Wed, 05 Apr 2017 15:00:00 +1000</pubDate>
+      <guid>/research/talks/extending-the-reach-of-qkd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photon phreaking: What quantum can (actually) do for security</title>
+      <link>/research/talks/photon-phreaking-what-quantum-can-actually-do-for-security/</link>
+      <pubDate>Thu, 23 Feb 2017 17:00:00 +1000</pubDate>
+      <guid>/research/talks/photon-phreaking-what-quantum-can-actually-do-for-security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical Quantum Cryptography Devices: How To Make Them And How To Break Them</title>
+      <link>/research/talks/practical-quantum-cryptography-devices-how-to-make-them-and-how-to-break-them/</link>
+      <pubDate>Fri, 01 Apr 2016 16:00:00 +1000</pubDate>
+      <guid>/research/talks/practical-quantum-cryptography-devices-how-to-make-them-and-how-to-break-them/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

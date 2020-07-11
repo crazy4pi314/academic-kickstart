@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>qsharp-advent | Academic</title>
+    <link>/tag/qsharp-advent/</link>
+      <atom:link href="/tag/qsharp-advent/index.xml" rel="self" type="application/rss+xml" />
+    <description>qsharp-advent</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sarah Kaiser 2020</copyright><lastBuildDate>Sat, 22 Dec 2018 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>qsharp-advent</title>
+      <link>/tag/qsharp-advent/</link>
+    </image>
+    
+    <item>
+      <title>Opening Presents Early</title>
+      <link>/blog/2018/12/22/opening-presents-early/</link>
+      <pubDate>Sat, 22 Dec 2018 00:00:00 -0700</pubDate>
+      <guid>/blog/2018/12/22/opening-presents-early/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;This is a post contributing to #QsAdvent 2018, check out all the others 
+&lt;a href=&#34;https://twitter.com/search?f=tweets&amp;amp;q=%23QsAdvent&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We are approaching a day of the year where many will open presents from family and friends, after eating until they are uncomfortably full. I thought it would be fun to highlight some tips for working with Q# this holiday break, so you can work on designing quantum algorithms snuggled up by a fire (or at least a space heater if in the northern hemisphere). Some of these may be obvious to different folks, so if you already know then give yourself a pat on the back 😃. Also they are in no particular order other than the order in which they occurred to me while drinking some eggnog and enjoying some Christmas Cake from Smitha, Naomi, and 
+&lt;a href=&#34;https://twitter.com/johnazariah/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@johnazariah&lt;/a&gt;! 🍒 🍰 🎄&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s just jump right in!&lt;/p&gt;
+&lt;h2 id=&#34;1-easy-ways-to-get-new-q-projects-started-&#34;&gt;1. Easy ways to get new Q# projects started&lt;/h2&gt;
+&lt;p&gt;Sometimes it can be daunting to setup new dev environments and start working with a new language. I had never done anything in .NET before learning Q#. As perennial as the IT help advice of turning things off and back on again is, looking at the docs for a new language can help you fast-track learning more than a random walk through StackExchange (though those are helpful too).&lt;/p&gt;
+&lt;p&gt;One thing I came across when going through the docs is the way you can use the .NET Core SDK from the command line to start a new project:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-pwsh&#34;&gt;dotnet new console -lang Q# --output Teleport-Presents
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If this doesn&amp;rsquo;t work for you, make sure you have the latest project templates installed:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-pwsh&#34;&gt;dotnet new -i Microsoft.Quantum.ProjectTemplates::0.3.1811.2802-preview
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;While I love having GUI tools to do certain tasks, I ♥ it when I can script setup/initialization of tasks. (Things like 
+&lt;a href=&#34;https://github.com/audreyr/cookiecutter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cookiecutter&lt;/a&gt; and personal 
+&lt;a href=&#34;https://dotfiles.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dotfiles&lt;/a&gt; repos ftw.)&lt;/p&gt;
+&lt;h2 id=&#34;2-cool-editor-integrations--some-amazing-codehttpstwittercomcode-features-too-&#34;&gt;2. Cool editor integrations (+ some amazing 
+&lt;a href=&#34;https://twitter.com/code&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@code&lt;/a&gt; features too!)&lt;/h2&gt;
+&lt;p&gt;Disclaimer: I am an avid 
+&lt;a href=&#34;https://code.visualstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visual Studio Code&lt;/a&gt; user (
+&lt;a href=&#34;https://visualstudio.microsoft.com/services/live-share/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Live Share&lt;/a&gt; and 
+&lt;a href=&#34;https://code.visualstudio.com/docs/editor/versioncontrol&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git integration&lt;/a&gt; 😍) and am using it with live markdown preview to write this post! I have to use lots of different IDEs for work that are often specially made for the embedded system&amp;rsquo;s language or just because it was how the project was set up. I was so happy to see some awesome Q# integrations to some of the 
+&lt;a href=&#34;https://www.cnbc.com/2018/12/20/microsoft-cmo-capossela-says-google-employees-use-visual-studio-code.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;most popular editors&lt;/a&gt; and IDEs, which means I can use some familiar tools and get a lot of creature comforts like 
+&lt;a href=&#34;https://cloudblogs.microsoft.com/quantum/2018/10/30/updated-quantum-development-kit-offers-new-chemistry-library-and-improved-developer-tools/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IntelliSense for real-time feedback on errors&lt;/a&gt;.
+I have listed more links below, but if you use Visual Studio or Visual Studio Code definitely check out the integration for Q#&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=quantum.DevKit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visual Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=quantum.quantum-devkit-vscode&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-project-local-v-installing-&#34;&gt;3. Project-local v. installing&lt;/h2&gt;
+&lt;p&gt;One thing thing I have learned troubleshooting my own projects is how Q# projects manage installation of packages they need.
+It turns out that Q# does things similar to the Pythonic paradigm of project environments (or many other similar implementations). A common experience one might have of &amp;lsquo;installing&amp;rsquo; something is that you run an &lt;code&gt;*.exe&lt;/code&gt; or similar and it does a bunch of often inscrutable things and then is in some app menu. This has a drawback though of if you need to manage multiple versions of something installed for different projects. If all the package files for a particular project are &amp;lsquo;installed&amp;rsquo; locally in the project folder then it makes it easy to move things around and importantly you can have many projects on your system that are all independent from each other.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.microsoft.com/en-us/nuget/media/nuget-roles.png&#34; alt=&#34;How .NET packages are managed, from creation to installation with NuGet&#34;&gt;
+_How .NET packages are managed, from creation to installation with 
+&lt;a href=&#34;https://docs.microsoft.com/en-us/nuget/what-is-nuget&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NuGet&lt;/a&gt; (figure used under MIT licence from &lt;a href=&#34;https://docs.microsoft.com/en-us/nuget/what-is-nuget)_&#34;&gt;https://docs.microsoft.com/en-us/nuget/what-is-nuget)_&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;All that they need in common is the &lt;code&gt;.NET Core SDK&lt;/code&gt; which is installed in the more traditional system wide sense. Look here for more information about 
+&lt;a href=&#34;https://docs.microsoft.com/en-us/quantum/install-guide/?view=qsharp-preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;installing the QDK&lt;/a&gt; or 
+&lt;a href=&#34;https://docs.microsoft.com/en-us/nuget/what-is-nuget&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;managing project packages&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;4-contribution-guide-what-repo-should-i-pr-on-&#34;&gt;4. Contribution Guide (what repo should I PR on?)&lt;/h2&gt;
+&lt;p&gt;So with the recent 
+&lt;a href=&#34;https://cloudblogs.microsoft.com/quantum/2018/10/30/updated-quantum-development-kit-offers-new-chemistry-library-and-improved-developer-tools/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.3 release&lt;/a&gt; of the QDK there was a bit of a refactor of the GitHub repos.
+There are now a couple of different repos so I&amp;rsquo;ll summarize below what each has and what kind of pull requests (git for community contributions!) should go where.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Repo&lt;/th&gt;
+&lt;th&gt;What can I find here?&lt;/th&gt;
+&lt;th&gt;What should I contribute here?&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://github.com/Microsoft/QuantumLibraries&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quantum Libraries&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Q# libraries for the Quantum Development Kit. These are the repos that have the source for libraries in the QDK like the canon and the chemistry ones.&lt;/td&gt;
+&lt;td&gt;Bug fixes, new features for the QDK, anything really that can improve the libraries!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://github.com/Microsoft/Quantum&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quantum&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Microsoft Quantum Development Kit Samples&lt;/td&gt;
+&lt;td&gt;Do you have a cool example of an algorithm, or sample using the QDK libraries you want to share? This is the place!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://github.com/Microsoft/QuantumKatas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QuantumKatas&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Programming exercises for learning Q# and quantum computing&lt;/td&gt;
+&lt;td&gt;This collection of self-passed tutorials could use your notes, bug fixes, and additions to help the community grow!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://github.com/Microsoft/Quantum-NC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quantum-NC&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Microsoft Quantum Computing Libraries for noncommercial use&lt;/td&gt;
+&lt;td&gt;Unfortunately, not open for contributions.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;5-functions-v-operations-&#34;&gt;5. Functions v. Operations&lt;/h2&gt;
+&lt;p&gt;There are two concepts in the QDK that were a bit confusing to me at the start, but the difference is pretty clear now. &lt;em&gt;Operations&lt;/em&gt; are how you get things done with your qubits, in that they are how you effect change in your system. Operations need not be quantum or interact with qubits, but the main property they have is that they &lt;em&gt;do&lt;/em&gt; things. Examples of operations could be a rotation gate acting on a qubit, or rolling a classical die.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Functions&lt;/em&gt; on the other hand are meant to be more like the mathematical concept: a specification for a deterministic calculation or computation. An example of a function could be a polynomial like $x^2 + x-1$ or the trig function $\cos(x)$. Operations can involve/use functions, but functions can&amp;rsquo;t call operations because what operations &lt;em&gt;do&lt;/em&gt; to the system can be non-deterministic.&lt;/p&gt;
+&lt;p&gt;Look 
+&lt;a href=&#34;https://docs.microsoft.com/en-ca/quantum/techniques/operations-and-functions?view=qsharp-preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; for more information about functions and operations.&lt;/p&gt;
+&lt;h2 id=&#34;6-a-qubit-value-is-_not_-a-state-&#34;&gt;6. A qubit value is &lt;em&gt;NOT&lt;/em&gt; a state&lt;/h2&gt;
+&lt;p&gt;One fundamental difference between quantum programing and classical programming is the nature of the information you are creating and manipulating.
+In many classical programing languages, we have the ability to debug programs by pausing them while they are running and inspecting values of variables at any time to try and sort out what your program is doing.
+We can&amp;rsquo;t exactly do the same with qubits.
+The very act of inspecting or measuring a qubit changes our qubits where as our classical debugging tools does not.&lt;/p&gt;
+&lt;p&gt;Now, if you are using a simulator backend to run your quantum program, it has to record things about what states a qubit could be in and in principle you could look at those values debugging something.
+However, this should &lt;em&gt;never&lt;/em&gt; be relied on part of a quantum program, because you would not be able to do this inspection step without consequences on real hardware.
+The state of a qubit is not some inherent property of the system, but more of a formalism we have imposed to help us understand their behavior.
+There are other ways to debug quantum programs but like actual quantum algorithms they are different and interesting in their own right.
+(Let&amp;rsquo;s not open &lt;em&gt;allllll&lt;/em&gt; of the presents early, after all.)&lt;/p&gt;
+&lt;h2 id=&#34;7-dont-forget-to-clean-up-after-your-qubits-&#34;&gt;7. Don&amp;rsquo;t forget to clean up after your qubits!&lt;/h2&gt;
+&lt;p&gt;There used to be a time when most programing languages required programmers to manually manage memory.
+Whether it is because you are trying to squeeze every last ounce of performance out of your hardware or that there is no support for memory management in your language, it adds some complexity to how we think about our programs.
+Quantum computers have a similar requirement to have information cleanup managed, but for slightly different reasons.&lt;/p&gt;
+&lt;p&gt;In a quantum computer, all operations must be &lt;em&gt;reversible&lt;/em&gt; and thus cannot leak any information. (If information leaked in the forward direction, it would make it impossible to run in reverse!)
+What this means is that when we use qubits for operations, we will need to make sure they end in the same state they started in to make sure we are able to reverse whatever our algorithm does.
+In Q#, this has the consequence that we need to use the &lt;code&gt;Reset&lt;/code&gt; and related functions to make sure our qubits end as they start, in the |0〉state (by convention).&lt;/p&gt;
+&lt;p&gt;How does &lt;code&gt;Reset&lt;/code&gt; work you ask? It:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;measures the qubit in the $Z$ basis,&lt;/li&gt;
+&lt;li&gt;then based on the measurement outcome (0 or 1 classical bit values) either does nothing or applies a quantum NOT gate (a.k.a. rotation by 180° about the $X$ axis)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now if you have already measured your qubit doing a regular &lt;code&gt;Reset&lt;/code&gt; or &lt;code&gt;ResetAll&lt;/code&gt; is going to introduce some overhead because it does not know what your previous measurement results are. Thankfully if you know you are done with a qubit after you measure it, check out the &lt;code&gt;MResetX&lt;/code&gt;, &lt;code&gt;MResetY&lt;/code&gt;, and &lt;code&gt;MResetZ&lt;/code&gt; functions (more info 
+&lt;a href=&#34;https://docs.microsoft.com/en-ca/qsharp/api/canon/microsoft.quantum.canon.mresetx?view=qsharp-preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;) which both measure your qubit for you and use that information to right away reset your qubit!&lt;/p&gt;
+&lt;h2 id=&#34;8-tuple-in-tuple-out-&#34;&gt;8. Tuple-in tuple-out&lt;/h2&gt;
+&lt;p&gt;This one is pretty straightforward but basically there is no such thing as &lt;code&gt;void&lt;/code&gt; as a return for any function or operation in Q#. You will always get a tuple return even if it&amp;rsquo;s an empty tuple.&lt;/p&gt;
+&lt;p&gt;For more information on the type system in Q# see 
+&lt;a href=&#34;https://docs.microsoft.com/en-ca/quantum/techniques/type-model?view=qsharp-preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;9-net-what-now-&#34;&gt;9. .NET what now?&lt;/h2&gt;
+&lt;p&gt;Probably one the most common issues I see on forums and whatnot is installation problems with .NET Core SDK. This is understandable, I myself had to do some research on what the difference was between .NET Core, .NET Standard, and .NET Framework. Plus, each has an option to just install a runtime or a full SDK. The tl;dr is that .NET Framework is for Windows, while .NET Core is a cross-platform version of .NET &amp;mdash; it&amp;rsquo;s not a strict subset of the functionality, but adds in a few nice things along the way. .NET Standard is the proper subset of both .NET Core and .NET Framework that works on all systems (see below figure).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;dotnet-ven.png&#34; alt=&#34;.NET Venn diagram&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The bottom line is that Q# is designed to only need the .NET Standard components, but that is not distributed separately from the other two .NET versions. So the 
+&lt;a href=&#34;https://docs.microsoft.com/en-ca/quantum/install-guide/command-line?view=qsharp-preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install guide&lt;/a&gt; for Q# suggests to download and install the .NET Core SDK and then you will have the components you need from .NET Standard for use on either .NET Framework or .NET Core, as well as a more cross-platform SDK.&lt;/p&gt;
+&lt;h2 id=&#34;10-is-my-computer-a-quantum-computer-now-&#34;&gt;10. Is my computer a quantum computer now?&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;No, sadly installing the QDK will not magically turn your computer into a quantum computer.&lt;/em&gt; Nor will you be able to break RSA or run a quantum internet browser. You will have your same &lt;em&gt;classical&lt;/em&gt; device but that can for the moment simulate small quantum systems and help you learn how to develop your own quantum algorithms! For more directly from the developers as to why they made Q# see their post 
+&lt;a href=&#34;https://blogs.msdn.microsoft.com/visualstudio/2018/11/15/why-do-we-need-q/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hopefully at least one of these tips will make a good stocking stuffer! I&amp;rsquo;ll finish out with some more links to online resources from &amp;lsquo;round the net where people are discussing, learning, and asking questions about Q#!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Also on social media use the tags &lt;strong&gt;#qsharp&lt;/strong&gt; and &lt;strong&gt;#qsharpeningmyskills&lt;/strong&gt; so all quantum programmers can help learn together 💖&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Happy Hamiltonians and may you find your ground state in 2019! 🎁⛄❄🍷🎶💻&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://stackoverflow.com/questions/tagged/q%23?sort=newest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Q# stack overflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://cloudblogs.microsoft.com/quantum/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MSFT Quantum Team Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://blogs.msdn.microsoft.com/visualstudio/2018/11/15/q-advent-calendar-2018/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Q# Advent Calendar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Academic</title>
+    <link>/publication-type/2/</link>
+      <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sarah Kaiser 2020</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>2</title>
+      <link>/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Airborne Demonstration of a Quantum Key Distribution Receiver Payload</title>
+      <link>/publication/pugh-airborne-demonstration-quantum-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/pugh-airborne-demonstration-quantum-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum Key Distribution Devices: How to Make Them and How to Break Them</title>
+      <link>/publication/kaiser-quantum-key-distribution-2016/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/kaiser-quantum-key-distribution-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creation of Backdoors in Quantum Communications via Laser Damage</title>
+      <link>/publication/makarov-creation-backdoors-quantum-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/makarov-creation-backdoors-quantum-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attacks Exploiting Deviation of Mean Photon Number in Quantum Key Distribution and Coin Tossing</title>
+      <link>/publication/sajeed-attacks-exploiting-deviation-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/sajeed-attacks-exploiting-deviation-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experimental Quantum Key Distribution with Source Flaws</title>
+      <link>/publication/xu-experimental-quantum-key-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/xu-experimental-quantum-key-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Free-Space Quantum Key Distribution to a Moving Receiver</title>
+      <link>/publication/bourgoin-freespace-quantum-key-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/bourgoin-freespace-quantum-key-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

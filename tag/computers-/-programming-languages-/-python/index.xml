@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computers / Programming Languages / Python | Academic</title>
+    <link>/tag/computers-/-programming-languages-/-python/</link>
+      <atom:link href="/tag/computers-/-programming-languages-/-python/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computers / Programming Languages / Python</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Sarah Kaiser 2020</copyright>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Computers / Programming Languages / Python</title>
+      <link>/tag/computers-/-programming-languages-/-python/</link>
+    </image>
+    
+    <item>
+      <title>Learn Quantum Computing with Python and Q#: A Hands-on Approach</title>
+      <link>/publication/kaiser-learn-quantum-computing-2020/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/kaiser-learn-quantum-computing-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

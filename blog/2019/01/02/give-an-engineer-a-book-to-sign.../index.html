@@ -1,0 +1,1258 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Sarah Kaiser">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="I always start maker projects with the best of intentions to blog what my partner @cgranade and I work on, but sometimes in the excitement of making something new, blogging can get forgotten.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/blog/2019/01/02/give-an-engineer-a-book-to-sign.../">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168719669-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-168719669-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/blog/2019/01/02/give-an-engineer-a-book-to-sign.../">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@crazy4pi314">
+  <meta property="twitter:creator" content="@crazy4pi314">
+  
+  <meta property="og:site_name" content="Academic">
+  <meta property="og:url" content="/blog/2019/01/02/give-an-engineer-a-book-to-sign.../">
+  <meta property="og:title" content="Give an engineer a book to sign... | Academic">
+  <meta property="og:description" content="I always start maker projects with the best of intentions to blog what my partner @cgranade and I work on, but sometimes in the excitement of making something new, blogging can get forgotten."><meta property="og:image" content="/blog/2019/01/02/give-an-engineer-a-book-to-sign.../featured.jpg">
+  <meta property="twitter:image" content="/blog/2019/01/02/give-an-engineer-a-book-to-sign.../featured.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-01-02T17:09:50-07:00">
+    
+    <meta property="article:modified_time" content="2020-07-11T00:16:50-07:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/blog/2019/01/02/give-an-engineer-a-book-to-sign.../"
+  },
+  "headline": "Give an engineer a book to sign...",
+  
+  "image": [
+    "/blog/2019/01/02/give-an-engineer-a-book-to-sign.../featured.jpg"
+  ],
+  
+  "datePublished": "2019-01-02T17:09:50-07:00",
+  "dateModified": "2020-07-11T00:16:50-07:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Sarah Kaiser"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Academic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "I always start maker projects with the best of intentions to blog what my partner @cgranade and I work on, but sometimes in the excitement of making something new, blogging can get forgotten."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Give an engineer a book to sign... | Academic</title>
+
+</head>
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Academic</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Academic</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/blog"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cv"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Recent Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Give an engineer a book to sign...</h1>
+
+  
+  <p class="page-subtitle">&hellip; and they will want a laser to go with it! 😄⚡</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jul 11, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 540px;">
+  <div style="position: relative">
+    <img src="/blog/2019/01/02/give-an-engineer-a-book-to-sign.../featured_hu07412f3c5bb9f15a23265e145da7e751_3001407_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>I always start maker projects with the best of intentions to blog what my partner 
+<a href="https://twitter.com/cgranade" target="_blank" rel="noopener">@cgranade</a> and I work on, but sometimes in the excitement of making something new, blogging can get forgotten.
+An important part of the engineering process is <strong>documentation</strong>, though, so it seems fitting to kick-off posting some of the stuff we make with a fun way to personalize books!</p>
+<p>In this episode, my partner and I had just gone out and bought a bunch of sharpies because my first book (such an amazing feeling!!) is now out, 
+<a href="https://amzn.to/2COVYW5" target="_blank" rel="noopener">The ABCs of Engineering</a> with 
+<a href="https://csferrie.com/" target="_blank" rel="noopener">Chris Ferrie</a>.</p>
+<p style="text-align: center;">
+<img src="2019-01-12-book-stack.jpg" alt="Newly arrived author copies of my new book" style="width: 60%; display: inline;padding-top: 1em;"/>
+</p>
+<p>I had promised a bunch of people signed copies, and wanted some good ammo.
+I started working on the signature I wanted to use, but really didn&rsquo;t like how the Sharpies made it look, or how easily the signatures could be wiped off some of the printing.</p>
+<p style="text-align: center;">
+<img src="2019-01-12-signature-practice.jpeg" alt="Sharpie signature practice" style="width: 60%; display: inline;padding-top: 1em;"/>
+</p>
+So I thought, how could I make this more permanent and more personal...
+<blockquote>
+<p>&ldquo;Can this problem be solved with lasers (y/n)?&rdquo;</p>
+<p>y</p>
+</blockquote>
+<h2 id="_the-mission_"><em>The mission</em>:</h2>
+<p>Take the signature that I was practicing to sign the books with, and turn that into something that could be etched on a board book.</p>
+<p>I have to thank 
+<a href="https://twitter.com/cgranade" target="_blank" rel="noopener">@cgranade</a> for his help on this, he was the official laser cutter whisperer for this project (and because I don&rsquo;t have access to a laser cutter at the moment ♥).</p>
+<h2 id="_the-plan_"><em>The plan</em>:</h2>
+<ol>
+<li>
+<p>I started by using a Surface Pen to draw what I wanted in a OneNote page.</p>
+<p>Pretty straight forward, also considered paper with Sharpies and photo and then tracing, but that seemed like it would take longer.</p>
+ <p style="text-align: center;">
+ <img src="2019-01-12-onenote-signature.png" alt="OneNote signature with straight lines" style="width: 60%; display: inline;padding-top: 1em;"/>
+ </p>
+ Also it had to involve lasers, so there is an homage to laser safety signs:
+ <p style="text-align: center;">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Laser-symbol-text.svg" alt="Laser warning symbol, from wikipedia" style="width: 60%; display: inline;padding-top: 1em;"/>
+ </p>
+</li>
+<li>
+<p>Figure out what parts of the design to etch or cut.</p>
+<p>Laser cutters often have two modes, and there are tradeoffs for each mode.</p>
+<ul>
+<li>Cutting is faster, better for finer detail often, and well, cuts stuff.</li>
+<li>Etching works when you want to change larger areas of your material, kinda like an adjustable laser peeler.
+I decided that because I can&rsquo;t draw a straight line for anything, I wanted to do the laser emission symbol as a cut that I would use the computer to design.
+The rest of the letters I wanted to etch to maintain the look as if I had signed it with a pen.</li>
+</ul>
+ <p style="text-align: center;">
+ <img src="2019-01-12-lasercutter-mode.jpg" alt="Laser cutting v. etching" style="width: 60%; display: inline;padding-top: 1em;"/>
+ </p>
+<p>After the types of cut are chosen, the digital file is prepped (this step varies highly on the laser cutter itself, check the manual or software for a guide).</p>
+</li>
+<li>
+<p>Experiment with setting of the laser on a similar material to achieve desired cut.</p>
+<p>With the file loaded on the control computer, we need to figure out what laser settings achieve the cuts and etches we want.
+On the laser cutter we used here, this meant varying the speed and power of the laser for each part of the design.
+These settings do not hold for all materials, and can even change as the laser cutter itself ages, so we had to find good ones for the kind of paperboard the books were.
+Rather than messing up a book, we used some corrugated cardboard from the box they came in to test.
+
+<a href="https://twitter.com/cgranade" target="_blank" rel="noopener">@cgranade</a> has a real knack from experience for guessing good values for these parameters, so this testing went pretty quick.
+You can see some of his tests here, with notes of what settings he used for each:</p>
+ <p style="text-align: center;">
+ <img src="2019-01-12-cardboard-test.jpg" alt="Cardboard test of laser cutter settings" style="width: 60%; display: inline;padding-top: 1em;"/>
+ </p>
+ The "R" and "V" next to each signature are [@cgranade](https://twitter.com/cgranade)'s notes on what _raster_ and _vector_ settings are needed, which the control software uses to configure etching and cutting (respectively).
+<p>We ended up going with the one below (with a style modification suggested by 
+<a href="https://twitter.com/cgranade" target="_blank" rel="noopener">@cgranade</a>) because I liked the depth of the etch and the cut was not so deep it would risk cutting through the back page.</p>
+ <p style="text-align: center;">
+ <img src="2019-01-12-winning-settings.jpeg" alt="Winning laser cutter settings" style="width: 60%; display: inline;padding-top: 1em;" rotate="90"/>
+ </p>
+</li>
+<li>
+<p>Test on an actual book!!!</p>
+<p>After testing some parameters that worked on our cardboard proxy, it was time to try it on the real thing!
+I would have normally used some blue painter tape to cover the area I was going to cut to reduce scorching from the laser, but we didn&rsquo;t see much on the cardboard we were testing on and if it did happen it would add to the ambiance :)
+Also, since each book was not quite flat, the focus of the laser was adjusted for each book to make sure the design looked the same on each.
+Here is some photos and a video of the cut!</p>
+ <p style="text-align: center;">
+ <img src="2019-01-12-book-on-cutter.jpg" alt="Book on laser cutter" style="width: 60%; display: inline;padding-top: 1em;"/>
+ </p>
+ <video width="640" height="480" controls>
+ <source src="2019-01-12-book-signing.mp4" type="video/mp4">
+ Your browser does not support the video tag.
+ </video>
+</li>
+</ol>
+<h2 id="now-for-the-fun-part-a-giveaway">Now for the fun part: A GIVEAWAY!</h2>
+<p>Post a picture or description of what word/term you would add to the <em>ABCs of Engineering</em> on Facebook, Instagram, or Twitter with the hashtag 
+<a href="https://twitter.com/search?f=tweets&amp;q=%23ABCsofEngineering" target="_blank" rel="noopener">#ABCsofEngineering</a> and I will pick 3 at random on Feb 1st and mail a <strong>laser signed</strong> copy of The ABCs of Engineering to you!</p>
+<p>You can find copies of ABCs of Engineering at all of the following retailers:</p>
+<ul>
+<li>
+<a href="https://t.co/jnvIIUAmN7" target="_blank" rel="noopener">Amazon</a></li>
+<li>
+<a href="https://www.indiebound.org/book/9781492671213" target="_blank" rel="noopener">Indiebound</a></li>
+<li>
+<a href="https://www.barnesandnoble.com/w/abcs-of-engineering-chris-ferrie/1128189926?ean=9781492671213#/" target="_blank" rel="noopener">Barnes &amp; Noble</a></li>
+<li>
+<a href="https://www.booksamillion.com/p/ABCs-Engineering/Chris-Ferrie/9781492671213?id=6892826005771" target="_blank" rel="noopener">Books a Million</a></li>
+<li>
+<a href="https://www.booktopia.com.au/abcs-of-engineering-chris-ferrie/prod9781492671213.html" target="_blank" rel="noopener">Booktopia (AU retailer)</a></li>
+</ul>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/blog/2019/01/02/give-an-engineer-a-book-to-sign.../&amp;text=Give%20an%20engineer%20a%20book%20to%20sign..." target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/blog/2019/01/02/give-an-engineer-a-book-to-sign.../&amp;t=Give%20an%20engineer%20a%20book%20to%20sign..." target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Give%20an%20engineer%20a%20book%20to%20sign...&amp;body=/blog/2019/01/02/give-an-engineer-a-book-to-sign.../" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/blog/2019/01/02/give-an-engineer-a-book-to-sign.../&amp;title=Give%20an%20engineer%20a%20book%20to%20sign..." target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Give%20an%20engineer%20a%20book%20to%20sign...%20/blog/2019/01/02/give-an-engineer-a-book-to-sign.../" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/blog/2019/01/02/give-an-engineer-a-book-to-sign.../&amp;title=Give%20an%20engineer%20a%20book%20to%20sign..." target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hud92ee82919015c36fa542de32537e733_121278_270x270_fill_q90_lanczos_center.jpg" alt="Sarah Kaiser">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="/">Sarah Kaiser</a></h5>
+        <h6 class="card-subtitle">Community Maintainer</h6>
+        <p class="card-text">𝜋-thonista with PhD in Physics (quantum information) who loves to burn things w/ lasers 💖.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/crazy4pi314" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=wUnQwUMAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/crazy4pi314" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/cv.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/markdown.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.66c553246b0f279a03be6e5597f72b52.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
+  
+
+  <p class="powered-by">
+    © Sarah Kaiser 2020
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
