@@ -1,6 +1,7 @@
 ---
 title: Recent & Upcoming Talks
 
+aliases : ["/research/talks/"]
 # View.
 #   1 = List
 #   2 = Compact

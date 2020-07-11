@@ -10,15 +10,19 @@ authors:
 superuser: true
 
 # Role/position
+<<<<<<< HEAD
 role: Community Maintainer
+=======
+role: Quantum Technologist
+>>>>>>> origin/kaiser-draft
 
 # Organizations/Affiliations
 organizations:
 - name: Q# Community
-  url: "https://qsharp.community"
+  url: "https://qsharp.community/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 𝜋-thonista with PhD in Physics (quantum information) who loves to burn things w/ lasers 💖.
+bio: 𝜋-thonista and quantum technologist. PhD in Physics (quantum information) who loves to burn things w/ lasers ⚠🔥💖.
 
 #interests:
 #- Quantum Technologies
@@ -66,11 +70,17 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+<<<<<<< HEAD
 #user_groups:
 #- Researchers
 #- Visitors
+=======
+# user_groups:
+# - Researchers
+# - Visitors
+>>>>>>> origin/kaiser-draft
 ---
 
-Dr. Sarah Kaiser has spent much of her career developing new quantum hardware in the lab, from satellites to hacking quantum cryptography hardware. Communicating what is so exciting about quantum is her passion, and she loves finding new demos and tools to help enable the quantum open source community to grow. When not at the keyboard she loves kayaking, laser cutting everything (safe), and writing books about engineering for kids. 
+Dr. Sarah Kaiser has spent much of her career developing new quantum hardware in the lab, from satellites to hacking quantum cryptography hardware. Communicating what is so exciting about quantum is her passion, and she loves building new demos and tools to help enable the quantum open source community to grow. When not at the keyboard she loves kayaking, laser cutting everything (safe), and writing books about engineering for kids and adults alike. 
 
 <!--Sarah completed her PhD in physics (quantum information) at the University of Waterloo’s Institute for Quantum Computing and was a postdoctoral research fellow at Macquarie University in Sydney, Australia. Prior to that she was an undergraduate research fellow at CalTech, in Pasadena, and with the National Institute of Standards and Technology, in Boulder, CO and also worked as a Mathematica kernel developer with Wolfram Research in Urbana-Champaign.-->

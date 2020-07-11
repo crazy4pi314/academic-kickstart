@@ -16,8 +16,8 @@ abstract: "Long-distance quantum communication systems are of interest for comme
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-05-04T15:41:05-07:00
-date_end: 2020-05-04T15:41:05-07:00
+date: 2016-11-24T14:30:00-07:00
+date_end: 2016-11-24T14:50:00-07:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).

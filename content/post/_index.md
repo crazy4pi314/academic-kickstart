@@ -1,6 +1,7 @@
 ---
 title: The Quantum Register
 
+aliases : ["/blog/"]
 # View.
 #   1 = List
 #   2 = Compact
