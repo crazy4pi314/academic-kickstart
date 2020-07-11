@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: The Quantum Register
 
 # View.
 #   1 = List

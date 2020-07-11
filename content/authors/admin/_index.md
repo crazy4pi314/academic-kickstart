@@ -10,33 +10,33 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Enginer
+role: Community Maintainer
 
 # Organizations/Affiliations
 organizations:
-- name: Pensar Development
-  url: "https://pensar.com/"
+- name: Q# Community
+  url: "https://qsharp.community"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 𝜋-thonista and Research Engineer @ Pensar. PhD in Physics (quantum information) who loves to burn things w/ lasers 💖.
+bio: 𝜋-thonista with PhD in Physics (quantum information) who loves to burn things w/ lasers 💖.
 
-interests:
-- Quantum Technologies
-- Science Communication and Education
-- Tech Community Development
-- LASERS
+#interests:
+#- Quantum Technologies
+#- Science Communication and Education
+#- STEM Community Development
+#- LASERS
 
-education:
-  courses:
-  - course: PhD in Physics (Quantum Information)
-    institution: University of Waterloo
-    year: 2016
-  - course: BSc in Physics
-    institution: Bethel University
-    year: 2011
-  - course: BA in Mathematics
-    institution: Bethel University
-    year: 2011
+#education:
+#  courses:
+#  - course: PhD in Physics (Quantum Information)
+#    institution: University of Waterloo
+#    year: 2016
+#  - course: BSc in Physics
+#    institution: Bethel University
+#    year: 2011
+#  - course: BA in Mathematics
+#    institution: Bethel University
+#    year: 2011
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -66,9 +66,9 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+#user_groups:
+#- Researchers
+#- Visitors
 ---
 
 Dr. Sarah Kaiser has spent much of her career developing new quantum hardware in the lab, from satellites to hacking quantum cryptography hardware. Communicating what is so exciting about quantum is her passion, and she loves finding new demos and tools to help enable the quantum open source community to grow. When not at the keyboard she loves kayaking, laser cutting everything (safe), and writing books about engineering for kids. 
